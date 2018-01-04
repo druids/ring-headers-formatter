@@ -12,7 +12,7 @@ Leiningen/Boot
 --------------
 
 ```clojure
-[ring-headers-formatter "0.1.0"]
+[ring-headers-formatter "0.1.1"]
 ```
 
 
