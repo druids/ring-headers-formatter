@@ -39,6 +39,8 @@ And response's headers will be formatted like this:
 {:response {:foo "bar"}, :headers {"X-Limit" "100"}}
 ```
 
+Please notice that lazy sequences in values aren't converted into strings, rather they passed as they are.
+
 
 Contribution
 ------------

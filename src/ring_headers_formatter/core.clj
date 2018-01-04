@@ -12,7 +12,7 @@
 
 (defn- format-headers
   [headers]
-  (reduce-kv #(assoc %1 (format-key %2) (str %3)) {} headers))
+  (reduce-kv #(assoc %1 (format-key %2) (if (seq? %3) %3 (str %3))) {} headers))
 
 
 (defn wrap-response-headers
