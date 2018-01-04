@@ -1,4 +1,4 @@
-(defproject ring-headers-formatter "0.1.0"
+(defproject ring-headers-formatter "0.1.1"
   :description "A Ring's middleware converts headers into Title-Case and returns keys/values as strings"
   :url "https://github.com/druids/ring-headers-formatter"
   :license {:name "MIT License"
