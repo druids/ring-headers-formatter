@@ -1,3 +1,9 @@
+## 0.1.2
+
+### Fixed
+
+  - Upgraded to Clojure 1.9.0 #7
+
 ## 0.1.1
 
 ### Fixed
